@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡Generate a <span><ion-icon name="flash-outline"></ion-icon>Random Password⚡</span></h1>
+        
+        <div class="password-container">
+            <input type="text" id="password-display" placeholder="Password" readonly>
+            <button id="copy-btn"><i class="fas fa-copy"></i></button>
+        </div>
+
+        <!-- Strength Indicator -->
+        <div id="strength-indicator">Strength: <span id="strength"></span></div>
+
+        <button id="generate-btn">⚡Generate Password⚡</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+
+</style>
